@@ -30,9 +30,9 @@
         </div>
 
         <div class="card scroll">
-            <ul class="list bg-green" v-if="timestampsList.length">
+            <ul class="list" v-if="timestampsList.length">
                 <li
-                    class="list-item"
+                    class="list-item bg-green"
                     v-for="(item, i) in timestampsList"
                     @click="timestampsList.splice(i, 1)"
                     :key="item">

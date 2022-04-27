@@ -59,6 +59,9 @@ body {
 
 .list-item {
     align-items: center;
+    padding: 0.5rem 0;
+    transition: .22s all;
+    margin-bottom: 4px;
     /* justify-content: space-between;
     padding: 0.5rem 0;
     transition: .22s all;
