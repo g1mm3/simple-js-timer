@@ -1,0 +1,76 @@
+[v-cloak] {
+    display: none;
+}
+
+body {
+    background-color: lightblue;
+    color: #1e2b46;
+
+    font-size: 16px;
+    font-weight: normal;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.container {
+    max-width: fit-content;
+    margin: auto;
+    text-align: center;
+    
+}
+
+.card {
+    margin-bottom: 20px;
+    /* background-color: seagreen; */
+    max-height: 400px;
+}
+
+.btn {
+    background: rgb(17, 99, 15);
+    padding: 15px 20px;
+    color: #fff;
+    border: none;
+    font-family: inherit;
+    cursor: pointer;
+    min-width: 150px;
+}
+
+.btn:hover {
+    opacity: 0.8;
+}
+
+.width-100 {
+    width: 100%;
+}
+
+.mw-10 {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.bg-green {
+    background-color: green;
+}
+
+.list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.list-item {
+    align-items: center;
+    /* justify-content: space-between;
+    padding: 0.5rem 0;
+    transition: .22s all;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden; */
+}
+
+.list-item:hover {
+    background: rgb(64, 177, 19);
+}
+
+.scroll {
+    overflow-y: auto;
+}
